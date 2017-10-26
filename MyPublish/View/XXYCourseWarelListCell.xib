@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="87" id="KGk-i7-Jjw" customClass="XXYCourseWarelListCell">
+            <rect key="frame" x="0.0" y="0.0" width="490" height="87"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="490" height="87"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="47O-Dj-c7p">
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NFe-74-iRI">
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FaY-7i-BVO">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="4u7-7Z-H5j"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B24-As-Ved">
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="NFe-74-iRI" firstAttribute="top" secondItem="47O-Dj-c7p" secondAttribute="bottom" constant="5" id="AY8-KO-8ud"/>
+                    <constraint firstItem="B24-As-Ved" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="DUF-3C-ObL"/>
+                    <constraint firstItem="B24-As-Ved" firstAttribute="top" secondItem="NFe-74-iRI" secondAttribute="bottom" constant="5" id="J0V-s7-jfC"/>
+                    <constraint firstItem="NFe-74-iRI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Sah-Zn-LjI"/>
+                    <constraint firstAttribute="trailing" secondItem="47O-Dj-c7p" secondAttribute="trailing" constant="10.300000000000001" id="VT2-1T-8ig"/>
+                    <constraint firstItem="FaY-7i-BVO" firstAttribute="leading" secondItem="NFe-74-iRI" secondAttribute="trailing" constant="5" id="ch1-iO-j1j"/>
+                    <constraint firstItem="FaY-7i-BVO" firstAttribute="top" secondItem="47O-Dj-c7p" secondAttribute="bottom" constant="5" id="e4W-Or-2Xn"/>
+                    <constraint firstAttribute="trailing" secondItem="FaY-7i-BVO" secondAttribute="trailing" constant="10" id="iXj-Kh-vFw"/>
+                    <constraint firstItem="B24-As-Ved" firstAttribute="top" secondItem="FaY-7i-BVO" secondAttribute="bottom" constant="5" id="s5a-oe-JdE"/>
+                    <constraint firstItem="47O-Dj-c7p" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="voQ-6m-SDe"/>
+                    <constraint firstItem="47O-Dj-c7p" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="xX0-MJ-YlN"/>
+                    <constraint firstAttribute="trailing" secondItem="B24-As-Ved" secondAttribute="trailing" constant="10" id="xpK-48-ucf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="className" destination="NFe-74-iRI" id="4XE-VH-h1d"/>
+                <outlet property="coursewareStyle" destination="FaY-7i-BVO" id="0Ic-CR-Zz5"/>
+                <outlet property="publishTime" destination="B24-As-Ved" id="KIf-60-KiK"/>
+                <outlet property="titleContent" destination="47O-Dj-c7p" id="x3I-1f-8Gu"/>
+            </connections>
+            <point key="canvasLocation" x="-121" y="-157"/>
+        </tableViewCell>
+    </objects>
+</document>

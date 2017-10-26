@@ -1,0 +1,21 @@
+#ifndef XXYInterface_pch
+#define XXYInterface_pch
+
+#define MainScreenW ([UIScreen mainScreen].bounds.size.width)
+#define MainScreenH ([UIScreen mainScreen].bounds.size.height)
+
+//#define BaseUrl @"http://10.0.0.8:8081/dx-svc/service"
+#define BaseUrl @"http://test.comoclass.com/dx-svc/service"
+//10.0.0.4:8081  opus.comoclass.com  139.224.30.227  test.comoclass.com
+
+#define XXYBgColor  [UIColor colorWithRed:(239/255.0) green:(239/255.0) blue:(244/255.0) alpha:1.0]
+#define XXYMainColor  [UIColor colorWithRed:28.0/255 green:207.0/255 blue:200.0/255 alpha:1.0]
+#define XXYCharactersColor  [UIColor colorWithRed:72.0/255 green:72.0/255 blue:72.0/255 alpha:1.0]
+
+#endif  
+
+#import <SVProgressHUD/SVProgressHUD.h>
+#import "JPUSHService.h"
+#import "UINavigationController+XXYNav.h"
+#import "BSHttpRequest.h"
+#import "XXYMyTools.h"

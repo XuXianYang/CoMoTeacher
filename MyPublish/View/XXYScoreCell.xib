@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="98" id="KGk-i7-Jjw" customClass="XXYScoreCell">
+            <rect key="frame" x="0.0" y="0.0" width="476" height="98"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="476" height="98"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="考试内容:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UEp-5b-dkM">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="Ebn-9F-XyV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.28235294117647058" green="0.28235294117647058" blue="0.28235294117647058" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="考试科目:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PGP-SQ-HyW">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="6Z8-Xe-MY4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.28235294117647058" green="0.28235294117647058" blue="0.28235294117647058" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="考试类型:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B2E-fq-Cpx">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="Hs5-lk-g5i"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.28235294117647058" green="0.28235294117647058" blue="0.28235294117647058" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="29H-DS-aFw">
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.28235294117647058" green="0.28235294117647058" blue="0.28235294117647058" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="70E-Cn-Lrl">
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.28235294117647058" green="0.28235294117647058" blue="0.28235294117647058" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1uX-MY-T7R">
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.28235294117647058" green="0.28235294117647058" blue="0.28235294117647058" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="29H-DS-aFw" secondAttribute="trailing" constant="10" id="5NZ-Ug-Umq"/>
+                    <constraint firstAttribute="trailing" secondItem="70E-Cn-Lrl" secondAttribute="trailing" constant="10" id="B5r-Ye-8g5"/>
+                    <constraint firstItem="1uX-MY-T7R" firstAttribute="leading" secondItem="B2E-fq-Cpx" secondAttribute="trailing" constant="10" id="CPy-tG-LWd"/>
+                    <constraint firstItem="29H-DS-aFw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Kaa-kf-irt"/>
+                    <constraint firstItem="PGP-SQ-HyW" firstAttribute="top" secondItem="UEp-5b-dkM" secondAttribute="bottom" constant="5" id="SAJ-UY-R7v"/>
+                    <constraint firstItem="B2E-fq-Cpx" firstAttribute="top" secondItem="PGP-SQ-HyW" secondAttribute="bottom" constant="5" id="TGf-2w-ikN"/>
+                    <constraint firstItem="29H-DS-aFw" firstAttribute="leading" secondItem="UEp-5b-dkM" secondAttribute="trailing" constant="10" id="Vqf-4Q-B3D"/>
+                    <constraint firstItem="1uX-MY-T7R" firstAttribute="top" secondItem="70E-Cn-Lrl" secondAttribute="bottom" constant="5" id="WRt-kE-1MK"/>
+                    <constraint firstItem="70E-Cn-Lrl" firstAttribute="leading" secondItem="PGP-SQ-HyW" secondAttribute="trailing" constant="10" id="cx2-Qv-UL4"/>
+                    <constraint firstItem="PGP-SQ-HyW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="olu-qY-RTY"/>
+                    <constraint firstItem="UEp-5b-dkM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="tmO-86-ywp"/>
+                    <constraint firstItem="70E-Cn-Lrl" firstAttribute="top" secondItem="29H-DS-aFw" secondAttribute="bottom" constant="5" id="v8x-An-MQv"/>
+                    <constraint firstItem="B2E-fq-Cpx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="vki-gC-bGR"/>
+                    <constraint firstItem="UEp-5b-dkM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="x7C-co-pGR"/>
+                    <constraint firstAttribute="trailing" secondItem="1uX-MY-T7R" secondAttribute="trailing" constant="10" id="zNh-4j-oBc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="quizContentLabel" destination="29H-DS-aFw" id="nPU-Vf-xEo"/>
+                <outlet property="quizStyleLabel" destination="1uX-MY-T7R" id="MVf-ad-VKc"/>
+                <outlet property="quizSubjectLabel" destination="70E-Cn-Lrl" id="r0P-01-cQS"/>
+            </connections>
+            <point key="canvasLocation" x="-48" y="-10"/>
+        </tableViewCell>
+    </objects>
+</document>
